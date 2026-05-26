@@ -4,16 +4,12 @@
 ## Aim
 To study a 660nm & 950nm Fiber Analog Link and to analyze the frequency response of the phototransistor detector. The experiment investigates the relationship between the input signal and the received signal.
 
----
-
 ## Equipment Required
 - Link-B Kit with power supply  
 - Patch chords  
 - 20 MHz Dual Channel Oscilloscope  
 - 1 MHz Function Generator  
 - 1 Meter Fiber Cable  
-
----
 
 ## Theory
 Fiber optic links can transmit both digital and analog signals. A fiber optic link consists of three main elements:  
@@ -36,8 +32,6 @@ Fiber optic links can transmit both digital and analog signals. A fiber optic li
 - Bandwidth: ~300 kHz (limited by response time).  
 - Output voltage is proportional to incident optical power and replicates transmitted signal.
 
----
-
 ## Procedure
 1. Connect power supply to Link-B kit and switch ON.  
 2. Set switches and jumpers:  
@@ -58,21 +52,12 @@ Fiber optic links can transmit both digital and analog signals. A fiber optic li
 11. Replace fiber connection to SFH450V (950nm LED).  
 12. Observe detected signal at **ANALOG OUT** on oscilloscope.  
 
----
-
 ## Tabulation
+<img width="931" height="821" alt="Screenshot 2026-05-26 192348" src="https://github.com/user-attachments/assets/17ada04d-bf28-46c8-bde9-86da74dd5ef4" />
 
-| Frequency (Hz) | Input Amplitude (Vi) | Output Amplitude (Vo) | Gain (Vo/Vi) | Gain (dB) |
-|----------------|-----------------------|------------------------|--------------|-----------|
-|                |                       |                        |              |           |
-
----
 
 ## Model Graph
-- Plot **Gain (dB)** vs. **Frequency (Hz)**.  
-- Identify the **3 dB down point** to determine bandwidth.  
-
----
+<img width="661" height="513" alt="Screenshot 2026-05-26 192409" src="https://github.com/user-attachments/assets/93fe8619-68e4-4c7c-8332-b0fb064583a0" />
 
 ## Result
 The frequency response of the phototransistor detector was studied. The 3 dB bandwidth was determined from the gain vs. frequency plot for both 660nm and 950nm fiber analog links.
